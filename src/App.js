@@ -20,7 +20,7 @@ return (
       <img src={logo} className="App-logo" alt="logo" />
      <Switch>
 <Route exact path='/signup' component={Signup}></Route>
-<Route exact path='/' component={Login}></Route>
+<Route exact path='/ReactLog' component={Login}></Route>
 <Route exact path='/profile' component={Profile}></Route>
 </Switch>
     </header>

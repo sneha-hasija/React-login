@@ -17,7 +17,7 @@ class Profile extends Component {
         return (
             <div>
                 <h3>Welcome {this.state.name}</h3>
-                <Link to={"/"} className="btn btn-primary btn-sm">Logout</Link>
+                <Link to={"/ReactLog"} className="btn btn-primary btn-sm">Logout</Link>
             </div>
         )
     }

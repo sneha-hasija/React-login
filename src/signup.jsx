@@ -34,7 +34,7 @@ class Signup extends Component {
 <input type="text" className="form-control" required value={this.state.uid} onChange={this.handleCahnge} name="uid" />
 <label className="content">Password</label>
 <input type="password" className="form-control" required value={this.state.upassword} onChange={this.handleCahnge} name="upassword"/>
-<Link to={{pathname:"/",state:{
+<Link to={{pathname:"/ReactLog",state:{
     userName:this.state.uname,
     userId:this.state.uid,
     userPassword:this.state.upassword
